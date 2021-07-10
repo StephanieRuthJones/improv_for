@@ -7,29 +7,25 @@ export default function handler(req, res) {
       {
         personal: [
           {
-            id: 1,
             key: "full_name",
             value: "",
             question_text: "What's your name?",
             response_type: "text_input_2",
-            key: 
+
           },
           {
-            id: 2,
             key: "friend_full_name",
             value: "",
             question_text: "What's your friend / loved one's name?",
             response_type: "text_input_2",
           },
           {
-            id: 2,
             key: "friend_email",
             value: "",
             question_text: "What's your friend / loved one's email address?",
             response_type: "text_input_1",
           },
           {
-            id: 3,
             key: "year_birth",
             value: "",
             question_text: "Year of Birth",
@@ -40,7 +36,6 @@ export default function handler(req, res) {
       {
         legal: [
           {
-            id: 4,
             key: "need_will",
             value: "",
             question_text: "Do you have a will?",
@@ -53,7 +48,6 @@ export default function handler(req, res) {
             ],
           },
           {
-            id: 5,
             key: "need_health_executor",
             value: "",
             question_text: "Have you already appointed your health executor?",
@@ -68,7 +62,6 @@ export default function handler(req, res) {
       {
         care: [
           {
-            id: 6,
             key: "need_housing",
             value: "",
             question_text: "Are you looking for housing?",
@@ -76,7 +69,6 @@ export default function handler(req, res) {
             response_options: ["yes", "no"],
           },
           {
-            id: 7,
             key: "need_medicaid",
             value: "",
             question_text: "Have you applied for medicaid?",
@@ -88,7 +80,6 @@ export default function handler(req, res) {
       {
         dementia: [
           {
-            id: 8,
             key: "memory_problems",
             value: "",
             question_text: "",
@@ -96,7 +87,6 @@ export default function handler(req, res) {
             response_options: ["yes", "no"],
           },
           {
-            id: 9,
             key: "hearing_difficulty",
             value: "",
             question_text: "have difficulty hearing?",
